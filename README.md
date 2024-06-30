@@ -26,9 +26,11 @@ To install project-template, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! Please read our Contribution Guidelines before submitting pull requests.
+Contributions are welcome! Please read our
+[Contribution Guidelines](https://github.com/gvatsal60/project-template/blob/HEAD/CONTRIBUTING.md)
+before submitting pull requests.
 
 ## License
 
 This project is licensed under the Apache License 2.0 License - see the
-[LICENSE](<https://github.com/gvatsal60/project-template/blob/HEAD/LICENSE>) file for details.
+[LICENSE](https://github.com/gvatsal60/project-template/blob/HEAD/LICENSE) file for details.
