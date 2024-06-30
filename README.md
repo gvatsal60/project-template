@@ -1,2 +1,34 @@
 # project-template
-This repository serves as a foundational template for new projects, equipped with essential tools for maintaining code quality and documentation consistency. It includes:
+
+This repository serves as a foundational template for new projects, equipped with essential tools for
+maintaining code quality and documentation consistency. It includes:
+
+1. README.md
+2. LICENSE
+3. .gitignore
+4. CODE_OF_CONDUCT.md
+5. CONTRIBUTING.md
+6. FUNDING.yml
+7. CHANGELOG.md
+
+## Installation
+
+To install project-template, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/gvatsal60/project-template.git
+   cd project-template
+   ```
+
+2. Change Accordingly [Project Name] [contact email] [coding style guide]
+
+## Contributing
+
+Contributions are welcome! Please read our Contribution Guidelines before submitting pull requests.
+
+## License
+
+This project is licensed under the Apache License 2.0 License - see the
+[LICENSE](<https://github.com/gvatsal60/project-template/blob/HEAD/LICENSE>) file for details.
