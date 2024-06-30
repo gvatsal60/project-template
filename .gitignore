@@ -1,0 +1,15 @@
+# Node.js
+/node_modules
+
+# macOS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Others
+*.txt
+npm-debug.log
