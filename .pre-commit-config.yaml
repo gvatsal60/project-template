@@ -1,4 +1,24 @@
 repos:
+  # Pre-commit for trailing-whitespace
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-ast
+      - id: check-builtin-literals
+      - id: check-docstring-first
+      - id: check-executables-have-shebangs
+      - id: check-json
+      - id: check-shebang-scripts-are-executable
+      - id: check-xml
+      - id: check-yaml
+      - id: double-quote-string-fixer
+      - id: end-of-file-fixer
+      - id: pretty-format-json
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
+
+  # ShellCheck hook for linting shell scripts
   - repo: https://github.com/shellcheck-py/shellcheck-py
     rev: v0.10.0.1
     hooks:
@@ -6,12 +26,13 @@ repos:
         name: shellcheck
         description: This hook runs shellcheck for linting shell scripts
 
+  # Bashate hook for linting shell scripts
   - repo: https://github.com/openstack/bashate
     rev: 2.1.1
     hooks:
       - id: bashate
         name: bashate
         description: This hook runs bashate for linting shell scripts
-        entry: bashate
-        language: python
-        types: [shell]
+        entry: bashate  # Specify the entry point for the hook
+        language: python  # Language used to run the hook
+        types: [shell]  # Types of files this hook applies to
