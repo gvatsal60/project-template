@@ -1,4 +1,5 @@
 # project-template
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gvatsal60/project-template/master.svg)](https://results.pre-commit.ci/latest/github/gvatsal60/project-template/HEAD)
 
 This repository serves as a foundational template for new projects, equipped with essential tools for
 maintaining code quality and documentation consistency. It includes:
