@@ -1,4 +1,7 @@
 {
+  "capAdd": [
+    "SYS_PTRACE"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -7,8 +10,28 @@
         "Gruntfuggly.todo-tree",
         "DavidAnson.vscode-markdownlint",
         "bierner.markdown-emoji"
-      ]
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "explorer.confirmDelete": false,
+        "extensions.autoUpdate": true,
+        "extensions.ignoreRecommendations": false,
+        "files.autoSave": "afterDelay",
+        "files.exclude": {
+          "**/.vscode": true
+        },
+        "workbench.startupEditor": "none"
+      }
     }
   },
-  "postCreateCommand": "curl -fsSL https://raw.githubusercontent.com/gvatsal60/Linux-Aliases/HEAD/main.sh | sh"
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils": {},
+    "ghcr.io/devcontainers/features/git": {}
+  },
+  "postCreateCommand": "curl -fsSL https://raw.githubusercontent.com/gvatsal60/Linux-Aliases/HEAD/main.sh | sh",
+  "runArgs": [
+    "--rm",
+    "--name=${containerEnv}:${containerWorkspaceFolder}:${devcontainerId}-vsc"
+  ]
 }
