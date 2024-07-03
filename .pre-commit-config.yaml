@@ -1,7 +1,7 @@
 repos:
   # Built-in hook
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: ""
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -17,22 +17,37 @@ repos:
       - id: pretty-format-json
       - id: requirements-txt-fixer
       - id: trailing-whitespace
-
   # ShellCheck hook for linting shell scripts
   - repo: https://github.com/shellcheck-py/shellcheck-py
-    rev: v0.10.0.1
+    rev: ""
     hooks:
       - id: shellcheck
         name: shellcheck
         description: This hook runs shellcheck for linting shell scripts
-
   # Bashate hook for linting shell scripts
   - repo: https://github.com/openstack/bashate
-    rev: 2.1.1
+    rev: ""
     hooks:
       - id: bashate
         name: bashate
         description: This hook runs bashate for linting shell scripts
-        entry: bashate  # Specify the entry point for the hook
-        language: python  # Language used to run the hook
-        types: [shell]  # Types of files this hook applies to
+        entry: bashate
+        language: python
+        types: [shell]
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: ""
+    hooks:
+      - id: check-github-workflows
+        args: ["--verbose"]
+  - repo: https://github.com/rhysd/actionlint
+    rev: ""
+    hooks:
+      - id: actionlint
+  - repo: https://github.com/google/yamlfmt
+    rev: ""
+    hooks:
+      - id: yamlfmt
+  - repo: https://github.com/adrienverge/yamllint
+    rev: ""
+    hooks:
+      - id: yamllint
