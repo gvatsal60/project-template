@@ -33,6 +33,35 @@ repos:
       - id: bashate
         name: bashate
         description: This hook runs bashate for linting shell scripts
-        entry: bashate  # Specify the entry point for the hook
-        language: python  # Language used to run the hook
-        types: [shell]  # Types of files this hook applies to
+        entry: bashate # Specify the entry point for the hook
+        language: python # Language used to run the hook
+        types: [shell] # Types of files this hook applies to
+
+  - repo: https://github.com/biomejs/pre-commit
+    rev: ''
+    hooks:
+      - id: biome-check
+        additional_dependencies: ['@biomejs/biome@1.4.1']
+
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.28.6
+    hooks:
+      - id: check-github-workflows
+        args: ['--verbose']
+
+  - repo: https://github.com/rhysd/actionlint
+    rev: ''
+    hooks:
+      - id: actionlint
+      - id: actionlint-docker
+      - id: actionlint-system
+
+  - repo: https://github.com/google/yamlfmt
+    rev: ''
+    hooks:
+      - id: yamlfmt
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: ''
+    hooks:
+      - id: yamllint
