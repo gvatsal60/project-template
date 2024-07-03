@@ -9,8 +9,9 @@
         "esbenp.prettier-vscode",
         "Gruntfuggly.todo-tree",
         "DavidAnson.vscode-markdownlint",
-        "bierner.markdown-emoji",
         "MindpathTechnologyLimited.code-error-lens",
+        "gurumukhi.selected-lines-count",
+        "bradzacher.vscode-copy-filename",
         "PKief.material-icon-theme"
       ],
       "settings": {
