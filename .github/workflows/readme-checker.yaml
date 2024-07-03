@@ -1,4 +1,3 @@
----
 name: markdown-lint
 on:
   push:
