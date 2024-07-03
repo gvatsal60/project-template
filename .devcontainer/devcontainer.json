@@ -9,18 +9,38 @@
         "esbenp.prettier-vscode",
         "Gruntfuggly.todo-tree",
         "DavidAnson.vscode-markdownlint",
-        "bierner.markdown-emoji"
+        "bierner.markdown-emoji",
+        "MindpathTechnologyLimited.code-error-lens",
+        "PKief.material-icon-theme"
       ],
       "settings": {
+        "C_Cpp.autocompleteAddParentheses": true,
+        "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+        "C_Cpp.intelliSenseEngine": "default",
+        "editor.bracketPairColorization.enabled": true,
+        "editor.comments.insertSpace": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
         "editor.tabSize": 2,
+        "editor.trimAutoWhitespace": true,
         "explorer.confirmDelete": false,
         "extensions.autoUpdate": true,
-        "extensions.ignoreRecommendations": false,
+        "extensions.ignoreRecommendations": true,
         "files.autoSave": "afterDelay",
+        "files.eol": "auto",
         "files.exclude": {
           "**/.vscode": true
         },
+        "search.exclude": {
+          "**/*.code-search": true,
+          "**/*.git": true,
+          "**/*.vscode-server": true,
+          "**/bower_components": true,
+          "**/node_modules": true
+        },
+        "windows.title": "${folderPath}",
+        "workbench.iconTheme": "material-icon-theme",
         "workbench.startupEditor": "none"
       }
     }

@@ -1,8 +1,8 @@
 # Project Template
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://img.shields.io/github/license/gvatsal60/project-template)
 [![build status](https://github.com/gvatsal60/project-template/actions/workflows/readme-checker.yml/badge.svg)](https://github.com/gvatsal60/project-template/actions/workflows/readme-checker.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gvatsal60/project-template/master.svg)](https://results.pre-commit.ci/latest/github/gvatsal60/project-template/HEAD)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://img.shields.io/github/license/gvatsal60/project-template)
 ![GitHub pull-requests](https://img.shields.io/github/issues-pr/gvatsal60/project-template)
 ![GitHub Issues](https://img.shields.io/github/issues/gvatsal60/project-template)
 ![GitHub forks](https://img.shields.io/github/forks/gvatsal60/project-template)
