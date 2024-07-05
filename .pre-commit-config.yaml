@@ -51,3 +51,63 @@ repos:
     rev: ""
     hooks:
       - id: yamllint
+  - repo: https://github.com/codespell-project/codespell
+    rev: ""
+    hooks:
+    - id: codespell
+  - repo: https://github.com/mrtazz/checkmake
+    rev: ""
+    hooks:
+      - id: checkmake
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: ""
+    hooks:
+      - id: sqlfluff-lint
+      - id: sqlfluff-fix
+  - repo: https://github.com/bufbuild/buf
+    rev: ""
+    hooks:
+      - id: buf-generate
+      - id: buf-breaking
+      - id: buf-lint
+      - id: buf-format
+      - id: buf-dep-update
+      - id: buf-dep-prune
+      - id: buf-mod-update
+      - id: buf-mod-prune
+  - repo: https://github.com/rubocop/rubocop
+    rev: ""
+    hooks:
+      - id: rubocop
+  - repo: https://github.com/AleksaC/terraform-py
+    rev: ""
+    hooks:
+      - id: tf-fmt
+      - id: tf-validate
+  - repo: https://github.com/realm/SwiftLint
+    rev: ""
+    hooks:
+      - id: SwiftLint
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: ""
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/thoughtworks/talisman
+    rev: ""
+    hooks:
+      - id: talisman-commit
+        entry: cmd --githook pre-commit
+  - repo: https://github.com/crate-ci/typos
+    rev: ""
+    hooks:
+      - id: typos
+      - id: typos-docker
+      - id: typos-src
+  - repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: ""
+    hooks:
+      - id: clang-format
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: ""
+    hooks:
+      - id: eslint

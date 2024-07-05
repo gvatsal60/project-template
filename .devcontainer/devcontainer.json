@@ -23,6 +23,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.detectIndentation": false,
         "editor.insertSpaces": true,
+        "editor.tabCompletion": "on",
         "editor.tabSize": 2,
         "editor.trimAutoWhitespace": true,
         "explorer.confirmDelete": false,
