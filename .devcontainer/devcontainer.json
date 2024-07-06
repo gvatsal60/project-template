@@ -48,6 +48,9 @@
     }
   },
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "mounts": [
+    "source=${localWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind"
+  ],
   "postCreateCommand": "curl -fsSL https://raw.githubusercontent.com/gvatsal60/Linux-Aliases/HEAD/main.sh | sh",
   "runArgs": [
     "--rm",
