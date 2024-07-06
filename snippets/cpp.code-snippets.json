@@ -5,5 +5,5 @@
             "print('Hello, World!')"
         ],
         "description": "Prints Hello World in Python"
-    },
+    }
 }
