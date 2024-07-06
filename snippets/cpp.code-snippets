@@ -1,9 +1,0 @@
-{
-    "Print Hello World in Python": {
-        "prefix": "hello",
-        "body": [
-            "print('Hello, World!')"
-        ],
-        "description": "Prints Hello World in Python"
-    },
-}
