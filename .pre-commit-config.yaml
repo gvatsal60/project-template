@@ -1,4 +1,3 @@
----
 repos:
   # Pre-commit hooks for general file checks
   - repo: https://github.com/pre-commit/pre-commit-hooks
