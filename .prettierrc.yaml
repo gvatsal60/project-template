@@ -3,6 +3,10 @@ printWidth: 80
 tabWidth: 2
 useTabs: false
 semi: true
+indent: 2
+no_ensure_ascii: false
+no_sort_keys: false
+top_keys: []
 trailingComma: "none"
 bracketSpacing: true
 arrowParens: "avoid"
