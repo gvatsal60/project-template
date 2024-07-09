@@ -1,6 +1,6 @@
 {
   "Print Pointer Address": {
-    "scope": "h, hpp, h++, c, c++, cpp",
+    "scope": "h, hpp, h++, c, cpp, c++",
     "prefix": "plog",
     "body": [
       "printf(\"%s:%d $1: %p\\n\", \"$TM_FILENAME\", __LINE__, $1); $LINE_COMMENT REMOVE"
