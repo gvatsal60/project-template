@@ -12,7 +12,8 @@
         "MindpathTechnologyLimited.code-error-lens",
         "gurumukhi.selected-lines-count",
         "bradzacher.vscode-copy-filename",
-        "PKief.material-icon-theme"
+        "PKief.material-icon-theme",
+        "SonarSource.sonarlint-vscode"
       ],
       "settings": {
         "C_Cpp.autocompleteAddParentheses": true,
@@ -45,6 +46,12 @@
         "workbench.iconTheme": "material-icon-theme",
         "workbench.startupEditor": "none"
       }
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "nodeGypDependencies": false,
+      "installYarnUsingApt": false
     }
   },
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
