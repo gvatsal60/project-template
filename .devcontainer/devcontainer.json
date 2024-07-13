@@ -9,7 +9,7 @@
         "esbenp.prettier-vscode",
         "Gruntfuggly.todo-tree",
         "DavidAnson.vscode-markdownlint",
-        "MindpathTechnologyLimited.code-error-lens",
+        "usernamehw.errorlens",
         "gurumukhi.selected-lines-count",
         "bradzacher.vscode-copy-filename",
         "PKief.material-icon-theme",
@@ -52,7 +52,8 @@
     "ghcr.io/devcontainers/features/node:1": {
       "nodeGypDependencies": false,
       "installYarnUsingApt": false
-    }
+    },
+    "ghcr.io/devcontainers/features/java:1": {}
   },
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "mounts": [
