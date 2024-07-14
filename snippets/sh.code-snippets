@@ -38,5 +38,16 @@
     ],
     "description": "Shell script file template",
     "isFileTemplate": true
-  }
+  },
+  /***************************************************************************************
+   * Debugging
+   **************************************************************************************/
+  "Print Hex Value": {
+    "scope": "shellscript",
+    "prefix": "hlog",
+    "body": [
+      "printf \"%s: '$1': 0x%X\\n\" \"${TM_FILENAME}\" \"$$1\" ${LINE_COMMENT} REMOVE"
+    ],
+    "description": "Print hex value to console"
+  },
 }
