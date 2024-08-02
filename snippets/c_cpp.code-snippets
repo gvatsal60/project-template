@@ -1,3 +1,17 @@
+/**
+ * @file c_cpp.code-snippets
+ * @brief Contains custom code snippets for C and C++
+ *
+ * This file provides a collection of code snippets designed to facilitate rapid
+ * development by offering quick access to commonly used patterns and boilerplate
+ * code. The snippets include function templates, common data structures, and
+ * useful macros.
+ *
+ * To utilize these snippets, integrate this file into your IDE's snippet manager
+ * or configuration. Feel free to modify and expand the snippets to meet your
+ * specific coding requirements.
+ */
+
 {
   /***************************************************************************************
    * Header File Template

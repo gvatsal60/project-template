@@ -1,11 +1,25 @@
+/**
+ * @file sh.code-snippets
+ * @brief Contains custom code snippets for Shellscript
+ *
+ * This file provides a collection of code snippets designed to facilitate rapid
+ * development by offering quick access to commonly used patterns and boilerplate
+ * code. The snippets include function templates, common data structures, and
+ * useful macros.
+ *
+ * To utilize these snippets, integrate this file into your IDE's snippet manager
+ * or configuration. Feel free to modify and expand the snippets to meet your
+ * specific coding requirements.
+ */
+
 {
+  /***************************************************************************************
+   * File Template
+   **************************************************************************************/
   "Shell Script Template": {
     "scope": "shellscript",
     "prefix": "template",
     "body": [
-      /***************************************************************************************
-       * File Template
-       **************************************************************************************/
       "#!/bin/sh",
       "",
       "##########################################################################################",
@@ -34,7 +48,7 @@
       "##########################################################################################",
       "",
       "# Main script logic goes here",
-      "",
+      ""
     ],
     "description": "Shell script file template",
     "isFileTemplate": true
@@ -49,5 +63,5 @@
       "printf \"%s: '$1': 0x%X\\n\" \"${TM_FILENAME}\" \"$$1\" ${LINE_COMMENT} REMOVE"
     ],
     "description": "Print hex value to console"
-  },
+  }
 }
