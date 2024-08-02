@@ -49,11 +49,7 @@
     }
   },
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "nodeGypDependencies": false,
-      "installYarnUsingApt": false
-    },
-    "ghcr.io/devcontainers/features/java:1": {}
+    "ghcr.io/gvatsal60/dev-container-features/sonarlint": {}
   },
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "mounts": [
