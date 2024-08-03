@@ -1,4 +1,5 @@
 {
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "capAdd": [
     "SYS_PTRACE"
   ],
@@ -51,11 +52,7 @@
   "features": {
     "ghcr.io/gvatsal60/dev-container-features/sonarlint": {}
   },
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",
-  "mounts": [
-    "source=${localWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached"
-  ],
-  "postCreateCommand": "chmod +x ${containerWorkspaceFolder}/install.sh && ${containerWorkspaceFolder}/install.sh",
+  "postCreateCommand": "chmod +x ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh && ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh",
   "runArgs": [
     "--rm",
     "--name=vsc-${localEnv:USER}-${containerWorkspaceFolderBasename}-${devcontainerId}"
