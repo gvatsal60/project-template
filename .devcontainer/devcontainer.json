@@ -45,7 +45,11 @@
         },
         "windows.title": "${folderPath}",
         "workbench.iconTheme": "material-icon-theme",
-        "workbench.startupEditor": "none"
+        "workbench.startupEditor": "none",
+        "files.associations": {
+          "*.snippet": "jsonc"
+        },
+        "editor.snippetSuggestions": "top"
       }
     }
   },
