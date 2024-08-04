@@ -1,5 +1,4 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "capAdd": [
     "SYS_PTRACE"
   ],
@@ -25,12 +24,16 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.detectIndentation": false,
         "editor.insertSpaces": true,
+        "editor.snippetSuggestions": "top",
         "editor.tabCompletion": "on",
         "editor.tabSize": 2,
         "editor.trimAutoWhitespace": true,
         "explorer.confirmDelete": false,
         "extensions.autoUpdate": true,
         "extensions.ignoreRecommendations": true,
+        "files.associations": {
+          "*.snippet": "jsonc"
+        },
         "files.autoSave": "afterDelay",
         "files.eol": "auto",
         "files.exclude": {
@@ -45,17 +48,14 @@
         },
         "windows.title": "${folderPath}",
         "workbench.iconTheme": "material-icon-theme",
-        "workbench.startupEditor": "none",
-        "files.associations": {
-          "*.snippet": "jsonc"
-        },
-        "editor.snippetSuggestions": "top"
+        "workbench.startupEditor": "none"
       }
     }
   },
   "features": {
     "ghcr.io/gvatsal60/dev-container-features/sonarlint": {}
   },
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "postCreateCommand": "chmod +x ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh && ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh",
   "runArgs": [
     "--rm",
