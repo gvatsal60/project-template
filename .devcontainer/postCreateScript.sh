@@ -39,14 +39,6 @@
 # Main Script
 ##########################################################################################
 
-# Create the .vscode directory if it doesn't already exist.
-mkdir -p .vscode
-
-# Create symbolic links for each file in snippets/ into the .vscode directory.
-for file in snippets/*; do
-    ln -s "$(realpath "$file")" ".vscode/$(basename "$file")"
-done
-
 # Install Linux aliases from external script using curl and execute immediately
 # Note: Make sure to review scripts fetched from external sources for security reasons
 curl -fsSL https://raw.githubusercontent.com/gvatsal60/Linux-Aliases/HEAD/install.sh | sh
