@@ -32,7 +32,7 @@
         "extensions.autoUpdate": true,
         "extensions.ignoreRecommendations": true,
         "files.associations": {
-          "*.snippet": "jsonc"
+          "*.code-snippets": "jsonc"
         },
         "files.autoSave": "afterDelay",
         "files.eol": "auto",
@@ -56,6 +56,9 @@
     "ghcr.io/gvatsal60/dev-container-features/sonarlint": {}
   },
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "mounts": [
+    "source=${localWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached,readonly"
+  ],
   "postCreateCommand": "chmod +x ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh && ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh",
   "runArgs": [
     "--rm",
