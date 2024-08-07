@@ -63,7 +63,7 @@
     "scope": "javascript",
     "prefix": "hlog",
     "body": [
-      "console.log('${TM_FILENAME}:%d $1: 0x%02x', (new Error()).lineNumber, $1); ${LINE_COMMENT} REMOVE"
+      "console.log('${TM_FILENAME}:%d $1: 0x%02x', 0 ${BLOCK_COMMENT_START} lineNumber ${BLOCK_COMMENT_END}, $1); ${LINE_COMMENT} REMOVE"
     ],
     "description": "Log hex value to console"
   },
@@ -71,7 +71,7 @@
     "scope": "javascript",
     "prefix": "slog",
     "body": [
-      "console.log('${TM_FILENAME}:%d $1: %s', (new Error()).lineNumber, $1); ${LINE_COMMENT} REMOVE"
+      "console.log('${TM_FILENAME}:%d $1: %s', 0 ${BLOCK_COMMENT_START} lineNumber ${BLOCK_COMMENT_END}, $1); ${LINE_COMMENT} REMOVE"
     ],
     "description": "Log string value to console"
   },
@@ -79,7 +79,7 @@
     "scope": "javascript",
     "prefix": "log0",
     "body": [
-      "console.log('${TM_FILENAME}:%d %s', (new Error()).lineNumber, arguments.callee.name); ${LINE_COMMENT} REMOVE"
+      "console.log('${TM_FILENAME}:%d %s', 0 ${BLOCK_COMMENT_START} lineNumber ${BLOCK_COMMENT_END}, arguments.callee.name); ${LINE_COMMENT} REMOVE"
     ],
     "description": "Log function name with line number to console"
   },
@@ -87,7 +87,7 @@
     "scope": "javascript",
     "prefix": "log1",
     "body": [
-      "console.log('${TM_FILENAME}:%d $1: %o', (new Error()).lineNumber, $1); ${LINE_COMMENT} REMOVE"
+      "console.log('${TM_FILENAME}:%d $1: %o', 0 ${BLOCK_COMMENT_START} lineNumber ${BLOCK_COMMENT_END}, $1); ${LINE_COMMENT} REMOVE"
     ],
     "description": "Log variable value to console"
   }
