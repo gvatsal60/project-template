@@ -67,6 +67,7 @@
         "files.exclude": {
           "**/.vscode": true
         },
+        "remote.downloadExtensionsLocally": false,
         "search.exclude": {
           "**/*.code-search": true,
           "**/*.git": true,
@@ -75,7 +76,6 @@
           "**/node_modules": true
         },
         "telemetry.telemetryLevel": "off",
-        "remote.downloadExtensionsLocally": false,
         "windows.title": "${folderPath}",
         "workbench.iconTheme": "material-icon-theme",
         "workbench.startupEditor": "none"
