@@ -14,7 +14,8 @@
         "bradzacher.vscode-copy-filename",
         "PKief.material-icon-theme",
         "SonarSource.sonarlint-vscode",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "Tyriar.sort-lines"
       ],
       "settings": {
         "[cpp]": {
