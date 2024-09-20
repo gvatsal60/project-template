@@ -13,12 +13,40 @@
         "gurumukhi.selected-lines-count",
         "bradzacher.vscode-copy-filename",
         "PKief.material-icon-theme",
-        "SonarSource.sonarlint-vscode"
+        "SonarSource.sonarlint-vscode",
+        "ms-azuretools.vscode-docker"
       ],
       "settings": {
-        "C_Cpp.autocompleteAddParentheses": true,
-        "C_Cpp.codeAnalysis.clangTidy.enabled": true,
-        "C_Cpp.intelliSenseEngine": "default",
+        "[cpp]": {
+          "C_Cpp.autocompleteAddParentheses": true,
+          "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+          "C_Cpp.intelliSenseEngine": "default",
+          "editor.defaultFormatter": "ms-vscode.cpptools"
+        },
+        "[dockercompose]": {
+          "editor.autoIndent": "advanced",
+          "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+          "editor.insertSpaces": true,
+          "editor.quickSuggestions": {
+            "comments": false,
+            "other": true,
+            "strings": true
+          },
+          "editor.tabSize": 2,
+          "files.eol": "\n"
+        },
+        "[dockerfile]": {
+          "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+          "editor.quickSuggestions": {
+            "strings": true
+          },
+          "files.eol": "\n"
+        },
+        "[shellscript]": {
+          "editor.defaultFormatter": "foxundermoon.shell-format",
+          "editor.tabSize": 4,
+          "files.eol": "\n"
+        },
         "editor.bracketPairColorization.enabled": true,
         "editor.comments.insertSpace": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -39,6 +67,7 @@
         "files.exclude": {
           "**/.vscode": true
         },
+        "remote.downloadExtensionsLocally": false,
         "search.exclude": {
           "**/*.code-search": true,
           "**/*.git": true,
@@ -46,6 +75,7 @@
           "**/bower_components": true,
           "**/node_modules": true
         },
+        "telemetry.telemetryLevel": "off",
         "windows.title": "${folderPath}",
         "workbench.iconTheme": "material-icon-theme",
         "workbench.startupEditor": "none"
