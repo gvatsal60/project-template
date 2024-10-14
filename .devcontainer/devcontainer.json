@@ -86,7 +86,7 @@
   "features": {
     "ghcr.io/gvatsal60/dev-container-features/sonarlint": {}
   },
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "image": "mcr.microsoft.com/devcontainers/base:noble",
   "mounts": [
     "source=${containerWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached,readonly"
   ],
