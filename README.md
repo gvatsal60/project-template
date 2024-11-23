@@ -8,8 +8,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/gvatsal60/project-template)
 ![GitHub stars](https://img.shields.io/github/stars/gvatsal60/project-template)
 
-This repository serves as a foundational template for new projects, equipped with essential tools for
-maintaining code quality and documentation consistency. It includes:
+This repository serves as a foundational template for new projects,
+equipped with essential tools for maintaining code quality and documentation consistency.
+It includes:
 
 1. README.md
 2. LICENSE
@@ -43,5 +44,6 @@ before submitting pull requests.
 
 ## License
 
-This project is licensed under the Apache License 2.0 License - see the
-[LICENSE](https://github.com/gvatsal60/project-template/blob/HEAD/LICENSE) file for details.
+This project is licensed under the Apache License 2.0 License -
+see the [LICENSE](https://github.com/gvatsal60/project-template/blob/HEAD/LICENSE)
+file for details.

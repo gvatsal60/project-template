@@ -43,6 +43,9 @@
           },
           "files.eol": "\n"
         },
+        "[markdown]": {
+          "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        },
         "[shellscript]": {
           "editor.defaultFormatter": "foxundermoon.shell-format",
           "editor.tabSize": 4,
@@ -88,7 +91,7 @@
   },
   "image": "mcr.microsoft.com/devcontainers/base:noble",
   "mounts": [
-    "source=${containerWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached,readonly"
+    "source=${localWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached"
   ],
   "postCreateCommand": "chmod +x ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh && ${containerWorkspaceFolder}/.devcontainer/postCreateScript.sh",
   "runArgs": [

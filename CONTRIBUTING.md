@@ -19,9 +19,10 @@ We follow the [coding style guide](link_to_style_guide) for this project.
 
 ## Reporting Bugs
 
-Please report bugs using the GitHub issue tracker. Include steps to reproduce the bug and
-any relevant error messages.
+Please report bugs using the GitHub issue tracker.
+Include steps to reproduce the bug and any relevant error messages.
 
 ## Contact
 
-If you have questions or need further assistance, feel free to contact us at [contact email].
+If you have questions or need further assistance,
+feel free to contact us at [contact email].
