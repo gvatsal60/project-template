@@ -13,6 +13,7 @@
         "bradzacher.vscode-copy-filename",
         "esbenp.prettier-vscode",
         "gurumukhi.selected-lines-count",
+        "marvhen.reflow-markdown",
         "ms-azuretools.vscode-docker",
         "streetsidesoftware.code-spell-checker",
         "usernamehw.errorlens"
@@ -44,7 +45,7 @@
           "files.eol": "\n"
         },
         "[markdown]": {
-          "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+          "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
         },
         "[shellscript]": {
           "editor.defaultFormatter": "foxundermoon.shell-format",
