@@ -18,7 +18,7 @@ response to any instances of unacceptable behavior.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [contact email].
+reported by contacting the project team at [contact email](github-actions[bot]@users.noreply.github.com).
 All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution

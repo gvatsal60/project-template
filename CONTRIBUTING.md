@@ -25,4 +25,4 @@ Include steps to reproduce the bug and any relevant error messages.
 ## Contact
 
 If you have questions or need further assistance,
-feel free to contact us at [contact email].
+feel free to contact us at [contact email](github-actions[bot]@users.noreply.github.com).
