@@ -1,6 +1,6 @@
-# Contributing to [Project Name]
+# Contributing to [Project Name](#contributing-to-project-name)
 
-Thank you for your interest in contributing to [Project Name]!
+Thank you for your interest in contributing to [Project Name](https)!
 Please follow these guidelines to ensure a smooth process.
 
 ## How to Contribute
