@@ -28,13 +28,13 @@ If applicable, add screenshots to help explain your problem.
 
 - OS: [e.g. iOS](https)
 - Browser [e.g. chrome, safari](https)
-- Version [e.g. 22]
+- Version [e.g. 22](https)
 
 **Smartphone (please complete the following information):**
 
-- Device: [e.g. iPhone6]
-- OS: [e.g. iOS8.1]
-- Browser [e.g. stock browser, safari]
+- Device: [e.g. iPhone6](https)
+- OS: [e.g. iOS8.1](https)
+- Browser [e.g. stock browser, safari](https)
 - Version [e.g. 22](https)
 
 **Additional context**
