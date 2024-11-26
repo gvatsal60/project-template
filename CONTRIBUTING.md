@@ -14,7 +14,7 @@ Please follow these guidelines to ensure a smooth process.
 
 ## Code Style
 
-[Describe your coding style guidelines here, if applicable.]
+[Describe your coding style guidelines here, if applicable.](#code-style)
 We follow the [coding style guide](link_to_style_guide) for this project.
 
 ## Reporting Bugs

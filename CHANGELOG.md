@@ -2,7 +2,7 @@
 
 All notable changes to [Project Name] will be documented in this file.
 
-## [Unreleased]
+## [Unreleased](#unreleased)
 
 ## [1.0.0] - YYYY-MM-DD
 
@@ -10,4 +10,4 @@ All notable changes to [Project Name] will be documented in this file.
 
 ## Older Releases
 
-[Older release notes can go here]
+[Older release notes can go here](#older-releases)
