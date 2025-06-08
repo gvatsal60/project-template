@@ -1,34 +1,20 @@
 {
-  "capAdd": [
-    "SYS_PTRACE"
-  ],
+  "capAdd": ["SYS_PTRACE"],
   "customizations": {
     "vscode": {
       "extensions": [
         "DavidAnson.vscode-markdownlint",
-        "Gruntfuggly.todo-tree",
-        "PKief.material-icon-theme",
+        "MindpathTechnologyLimited.code-error-lens",
         "SonarSource.sonarlint-vscode",
         "Tyriar.sort-lines",
         "bradzacher.vscode-copy-filename",
-        "esbenp.prettier-vscode",
         "foxundermoon.shell-format",
-        "gurumukhi.selected-lines-count",
-        "marvhen.reflow-markdown",
         "ms-azuretools.vscode-docker",
-        "streetsidesoftware.code-spell-checker",
-        "usernamehw.errorlens"
+        "streetsidesoftware.code-spell-checker"
       ],
       "settings": {
-        "[cpp]": {
-          "C_Cpp.autocompleteAddParentheses": true,
-          "C_Cpp.codeAnalysis.clangTidy.enabled": true,
-          "C_Cpp.intelliSenseEngine": "default",
-          "editor.defaultFormatter": "ms-vscode.cpptools"
-        },
         "[dockercompose]": {
           "editor.autoIndent": "advanced",
-          "editor.defaultFormatter": "ms-azuretools.vscode-docker",
           "editor.insertSpaces": true,
           "editor.quickSuggestions": {
             "comments": false,
@@ -39,7 +25,6 @@
           "files.eol": "\n"
         },
         "[dockerfile]": {
-          "editor.defaultFormatter": "ms-azuretools.vscode-docker",
           "editor.quickSuggestions": {
             "strings": true
           },
@@ -55,7 +40,6 @@
         },
         "editor.bracketPairColorization.enabled": true,
         "editor.comments.insertSpace": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.detectIndentation": false,
         "editor.insertSpaces": true,
         "editor.snippetSuggestions": "top",
@@ -63,7 +47,6 @@
         "editor.tabSize": 2,
         "editor.trimAutoWhitespace": true,
         "explorer.confirmDelete": false,
-        "extensions.autoUpdate": true,
         "extensions.ignoreRecommendations": true,
         "files.associations": {
           "*.code-snippets": "jsonc"
@@ -81,9 +64,6 @@
           "**/bower_components": true,
           "**/node_modules": true
         },
-        "telemetry.telemetryLevel": "off",
-        "windows.title": "${folderPath}",
-        "workbench.iconTheme": "material-icon-theme",
         "workbench.startupEditor": "none"
       }
     }
