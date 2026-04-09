@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://img.shields.io/github/license/gvatsal60/project-template)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gvatsal60/project-template/master.svg)](https://results.pre-commit.ci/latest/github/gvatsal60/project-template/HEAD)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7ae60c7a6c824bfea751067f08618c0d)](https://app.codacy.com/gh/gvatsal60/project-template/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/gvatsal60/project-template/badge)](https://www.codefactor.io/repository/github/gvatsal60/project-template)
 ![GitHub pull-requests](https://img.shields.io/github/issues-pr/gvatsal60/project-template)
 ![GitHub Issues](https://img.shields.io/github/issues/gvatsal60/project-template)
